@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F72E2BE24E54B950089F82A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2BD24E54B950089F82A /* AppDelegate.swift */; };
+		8F72E2C024E54B950089F82A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2BF24E54B950089F82A /* SceneDelegate.swift */; };
+		8F72E2C224E54B950089F82A /* PariwisataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2C124E54B950089F82A /* PariwisataViewController.swift */; };
+		8F72E2C424E54B950089F82A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2C324E54B950089F82A /* AboutViewController.swift */; };
+		8F72E2C724E54B950089F82A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72E2C524E54B950089F82A /* Main.storyboard */; };
+		8F72E2C924E54B970089F82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F72E2C824E54B970089F82A /* Assets.xcassets */; };
+		8F72E2CC24E54B970089F82A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72E2CA24E54B970089F82A /* LaunchScreen.storyboard */; };
+		8F72E2D724E54DD60089F82A /* PariwisataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2D524E54DD60089F82A /* PariwisataTableViewCell.swift */; };
+		8F72E2D824E54DD60089F82A /* PariwisataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F72E2D624E54DD60089F82A /* PariwisataTableViewCell.xib */; };
+		8F72E2DA24E54F5C0089F82A /* PariwisataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2D924E54F5C0089F82A /* PariwisataModel.swift */; };
+		8F72E2DD24E54F9F0089F82A /* PariwisataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2DC24E54F9F0089F82A /* PariwisataManager.swift */; };
+		8F72E2DF24E55C380089F82A /* PariwisataTouristSites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2DE24E55C380089F82A /* PariwisataTouristSites.swift */; };
+		8F72E2E124E55CEF0089F82A /* PariwisataTSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2E024E55CEF0089F82A /* PariwisataTSManager.swift */; };
+		8F72E2E324E5627E0089F82A /* PariwisataTSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2E224E5627E0089F82A /* PariwisataTSViewController.swift */; };
+		8F72E2E624E567BB0089F82A /* TouristSitesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2E424E567BB0089F82A /* TouristSitesTableViewCell.swift */; };
+		8F72E2E724E567BB0089F82A /* TouristSitesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F72E2E524E567BB0089F82A /* TouristSitesTableViewCell.xib */; };
+		8F72E2E924E59BF90089F82A /* PariwisataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E2E824E59BF90089F82A /* PariwisataDetailViewController.swift */; };
+		8FEF621724E64B2E000E3B41 /* UtilitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF621624E64B2E000E3B41 /* UtilitiesManager.swift */; };
+		928CF39905573A3092960408 /* Pods_IniPariwisata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3843E1AD6975A0A66A4F47 /* Pods_IniPariwisata.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3843E1AD6975A0A66A4F47 /* Pods_IniPariwisata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IniPariwisata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F36536C1C47F5F0373FEDC /* Pods-IniPariwisata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniPariwisata.release.xcconfig"; path = "Target Support Files/Pods-IniPariwisata/Pods-IniPariwisata.release.xcconfig"; sourceTree = "<group>"; };
+		8F72E2BA24E54B950089F82A /* IniPariwisata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IniPariwisata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F72E2BD24E54B950089F82A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F72E2BF24E54B950089F82A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F72E2C124E54B950089F82A /* PariwisataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataViewController.swift; sourceTree = "<group>"; };
+		8F72E2C324E54B950089F82A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8F72E2C624E54B950089F82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F72E2C824E54B970089F82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F72E2CB24E54B970089F82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F72E2CD24E54B970089F82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F72E2D524E54DD60089F82A /* PariwisataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataTableViewCell.swift; sourceTree = "<group>"; };
+		8F72E2D624E54DD60089F82A /* PariwisataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PariwisataTableViewCell.xib; sourceTree = "<group>"; };
+		8F72E2D924E54F5C0089F82A /* PariwisataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataModel.swift; sourceTree = "<group>"; };
+		8F72E2DC24E54F9F0089F82A /* PariwisataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataManager.swift; sourceTree = "<group>"; };
+		8F72E2DE24E55C380089F82A /* PariwisataTouristSites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataTouristSites.swift; sourceTree = "<group>"; };
+		8F72E2E024E55CEF0089F82A /* PariwisataTSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataTSManager.swift; sourceTree = "<group>"; };
+		8F72E2E224E5627E0089F82A /* PariwisataTSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataTSViewController.swift; sourceTree = "<group>"; };
+		8F72E2E424E567BB0089F82A /* TouristSitesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSitesTableViewCell.swift; sourceTree = "<group>"; };
+		8F72E2E524E567BB0089F82A /* TouristSitesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouristSitesTableViewCell.xib; sourceTree = "<group>"; };
+		8F72E2E824E59BF90089F82A /* PariwisataDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariwisataDetailViewController.swift; sourceTree = "<group>"; };
+		8FEF621624E64B2E000E3B41 /* UtilitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesManager.swift; sourceTree = "<group>"; };
+		CE888B5FB60C0F94AF1E956E /* Pods-IniPariwisata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IniPariwisata.debug.xcconfig"; path = "Target Support Files/Pods-IniPariwisata/Pods-IniPariwisata.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F72E2B724E54B950089F82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928CF39905573A3092960408 /* Pods_IniPariwisata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A83E4D429EE9AEE8A6998E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE888B5FB60C0F94AF1E956E /* Pods-IniPariwisata.debug.xcconfig */,
+				44F36536C1C47F5F0373FEDC /* Pods-IniPariwisata.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F72E2B124E54B950089F82A = {
+			isa = PBXGroup;
+			children = (
+				8F72E2BC24E54B950089F82A /* IniPariwisata */,
+				8F72E2BB24E54B950089F82A /* Products */,
+				8A83E4D429EE9AEE8A6998E5 /* Pods */,
+				C01A13F9897810D0AAAB9025 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F72E2BB24E54B950089F82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F72E2BA24E54B950089F82A /* IniPariwisata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F72E2BC24E54B950089F82A /* IniPariwisata */ = {
+			isa = PBXGroup;
+			children = (
+				8F72E2BD24E54B950089F82A /* AppDelegate.swift */,
+				8F72E2BF24E54B950089F82A /* SceneDelegate.swift */,
+				8F72E2D324E54D970089F82A /* Controller */,
+				8F72E2D424E54DA30089F82A /* View */,
+				8F72E2C824E54B970089F82A /* Assets.xcassets */,
+				8F72E2CA24E54B970089F82A /* LaunchScreen.storyboard */,
+				8F72E2CD24E54B970089F82A /* Info.plist */,
+				8F72E2DB24E54F600089F82A /* Model */,
+			);
+			path = IniPariwisata;
+			sourceTree = "<group>";
+		};
+		8F72E2D324E54D970089F82A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F72E2C124E54B950089F82A /* PariwisataViewController.swift */,
+				8F72E2C324E54B950089F82A /* AboutViewController.swift */,
+				8F72E2E224E5627E0089F82A /* PariwisataTSViewController.swift */,
+				8F72E2E824E59BF90089F82A /* PariwisataDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F72E2D424E54DA30089F82A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F72E2C524E54B950089F82A /* Main.storyboard */,
+				8F72E2D524E54DD60089F82A /* PariwisataTableViewCell.swift */,
+				8F72E2D624E54DD60089F82A /* PariwisataTableViewCell.xib */,
+				8F72E2E424E567BB0089F82A /* TouristSitesTableViewCell.swift */,
+				8F72E2E524E567BB0089F82A /* TouristSitesTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F72E2DB24E54F600089F82A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F72E2D924E54F5C0089F82A /* PariwisataModel.swift */,
+				8F72E2DC24E54F9F0089F82A /* PariwisataManager.swift */,
+				8F72E2DE24E55C380089F82A /* PariwisataTouristSites.swift */,
+				8F72E2E024E55CEF0089F82A /* PariwisataTSManager.swift */,
+				8FEF621624E64B2E000E3B41 /* UtilitiesManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C01A13F9897810D0AAAB9025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3843E1AD6975A0A66A4F47 /* Pods_IniPariwisata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F72E2B924E54B950089F82A /* IniPariwisata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F72E2D024E54B970089F82A /* Build configuration list for PBXNativeTarget "IniPariwisata" */;
+			buildPhases = (
+				2687FC451FF1190D4F4E63A3 /* [CP] Check Pods Manifest.lock */,
+				8F72E2B624E54B950089F82A /* Sources */,
+				8F72E2B724E54B950089F82A /* Frameworks */,
+				8F72E2B824E54B950089F82A /* Resources */,
+				849E9B84AB01F1E3E290523A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IniPariwisata;
+			productName = IniPariwisata;
+			productReference = 8F72E2BA24E54B950089F82A /* IniPariwisata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F72E2B224E54B950089F82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = IndratSaputra;
+				TargetAttributes = {
+					8F72E2B924E54B950089F82A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 8F72E2B524E54B950089F82A /* Build configuration list for PBXProject "IniPariwisata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F72E2B124E54B950089F82A;
+			productRefGroup = 8F72E2BB24E54B950089F82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F72E2B924E54B950089F82A /* IniPariwisata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F72E2B824E54B950089F82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72E2D824E54DD60089F82A /* PariwisataTableViewCell.xib in Resources */,
+				8F72E2E724E567BB0089F82A /* TouristSitesTableViewCell.xib in Resources */,
+				8F72E2CC24E54B970089F82A /* LaunchScreen.storyboard in Resources */,
+				8F72E2C924E54B970089F82A /* Assets.xcassets in Resources */,
+				8F72E2C724E54B950089F82A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2687FC451FF1190D4F4E63A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IniPariwisata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849E9B84AB01F1E3E290523A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IniPariwisata/Pods-IniPariwisata-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IniPariwisata/Pods-IniPariwisata-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IniPariwisata/Pods-IniPariwisata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F72E2B624E54B950089F82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72E2C424E54B950089F82A /* AboutViewController.swift in Sources */,
+				8F72E2DD24E54F9F0089F82A /* PariwisataManager.swift in Sources */,
+				8F72E2E324E5627E0089F82A /* PariwisataTSViewController.swift in Sources */,
+				8F72E2D724E54DD60089F82A /* PariwisataTableViewCell.swift in Sources */,
+				8FEF621724E64B2E000E3B41 /* UtilitiesManager.swift in Sources */,
+				8F72E2C224E54B950089F82A /* PariwisataViewController.swift in Sources */,
+				8F72E2E624E567BB0089F82A /* TouristSitesTableViewCell.swift in Sources */,
+				8F72E2E924E59BF90089F82A /* PariwisataDetailViewController.swift in Sources */,
+				8F72E2E124E55CEF0089F82A /* PariwisataTSManager.swift in Sources */,
+				8F72E2BE24E54B950089F82A /* AppDelegate.swift in Sources */,
+				8F72E2DA24E54F5C0089F82A /* PariwisataModel.swift in Sources */,
+				8F72E2DF24E55C380089F82A /* PariwisataTouristSites.swift in Sources */,
+				8F72E2C024E54B950089F82A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F72E2C524E54B950089F82A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F72E2C624E54B950089F82A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F72E2CA24E54B970089F82A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F72E2CB24E54B970089F82A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F72E2CE24E54B970089F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F72E2CF24E54B970089F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F72E2D124E54B970089F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE888B5FB60C0F94AF1E956E /* Pods-IniPariwisata.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IniPariwisata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appIDS.IniPariwisata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F72E2D224E54B970089F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F36536C1C47F5F0373FEDC /* Pods-IniPariwisata.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IniPariwisata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appIDS.IniPariwisata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F72E2B524E54B950089F82A /* Build configuration list for PBXProject "IniPariwisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F72E2CE24E54B970089F82A /* Debug */,
+				8F72E2CF24E54B970089F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F72E2D024E54B970089F82A /* Build configuration list for PBXNativeTarget "IniPariwisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F72E2D124E54B970089F82A /* Debug */,
+				8F72E2D224E54B970089F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F72E2B224E54B950089F82A /* Project object */;
+}
